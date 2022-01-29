@@ -9,16 +9,16 @@
 /* Begin PBXBuildFile section */
 		0E92E1CE27A2EA4500C6E121 /* topmapApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E92E1CD27A2EA4500C6E121 /* topmapApp.swift */; };
 		0E92E1D027A2EA4500C6E121 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E92E1CF27A2EA4500C6E121 /* ContentView.swift */; };
-		0E92E1D227A2EA4D00C6E121 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0E92E1D127A2EA4D00C6E121 /* Assets.xcassets */; };
 		0E92E1D527A2EA4D00C6E121 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0E92E1D427A2EA4D00C6E121 /* Preview Assets.xcassets */; };
+		0E92E1DC27A5366D00C6E121 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0E92E1DB27A5366D00C6E121 /* Assets.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		0E92E1CA27A2EA4500C6E121 /* topmap.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = topmap.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0E92E1CD27A2EA4500C6E121 /* topmapApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = topmapApp.swift; sourceTree = "<group>"; };
 		0E92E1CF27A2EA4500C6E121 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
-		0E92E1D127A2EA4D00C6E121 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0E92E1D427A2EA4D00C6E121 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		0E92E1DB27A5366D00C6E121 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,7 +53,7 @@
 			children = (
 				0E92E1CD27A2EA4500C6E121 /* topmapApp.swift */,
 				0E92E1CF27A2EA4500C6E121 /* ContentView.swift */,
-				0E92E1D127A2EA4D00C6E121 /* Assets.xcassets */,
+				0E92E1DB27A5366D00C6E121 /* Assets.xcassets */,
 				0E92E1D327A2EA4D00C6E121 /* Preview Content */,
 			);
 			path = topmap;
@@ -125,8 +125,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0E92E1DC27A5366D00C6E121 /* Assets.xcassets in Resources */,
 				0E92E1D527A2EA4D00C6E121 /* Preview Assets.xcassets in Resources */,
-				0E92E1D227A2EA4D00C6E121 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
